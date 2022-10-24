@@ -17,10 +17,10 @@ function mostrardatosTabla(Series:Serie[]):void{
     {
         let trElement=document.createElement("tr");
         trElement.innerHTML=
-        ` <td scope="col">${serie.id}</td>
-        <td scope="col"> ${serie.Name} </td>
-        <td scope="col" style='text-align:center'>${serie.Chan}</td>
-        <td scope="col" style='text-align:center'>${serie.Seas}</td>`;
+        ` <td scope="col"> &nbsp ${serie.id} &nbsp </td>
+        <td scope="col"> &nbsp ${serie.Name} &nbsp </td>
+        <td scope="col" style='text-align:center'> &nbsp ${serie.Chan} &nbsp </td>
+        <td scope="col" style='text-align:center'> &nbsp ${serie.Seas} &nbsp </td>`;
 
         seriesTabla.appendChild(trElement);
 

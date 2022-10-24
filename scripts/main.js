@@ -10,7 +10,7 @@ function mostrardatosTabla(Series) {
         var serie = Series_1[_i];
         var trElement = document.createElement("tr");
         trElement.innerHTML =
-            " <td scope=\"col\">".concat(serie.id, "</td>\n        <td scope=\"col\"> ").concat(serie.Name, " </td>\n        <td scope=\"col\" style='text-align:center'>").concat(serie.Chan, "</td>\n        <td scope=\"col\" style='text-align:center'>").concat(serie.Seas, "</td>");
+            " <td scope=\"col\"> &nbsp ".concat(serie.id, " &nbsp </td>\n        <td scope=\"col\"> &nbsp ").concat(serie.Name, " &nbsp </td>\n        <td scope=\"col\" style='text-align:center'> &nbsp ").concat(serie.Chan, " &nbsp </td>\n        <td scope=\"col\" style='text-align:center'> &nbsp ").concat(serie.Seas, " &nbsp </td>");
         seriesTabla.appendChild(trElement);
     }
 }
